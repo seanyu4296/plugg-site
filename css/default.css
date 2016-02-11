@@ -40,24 +40,13 @@ header {
     top: 0;
 
     bottom:0;
-    background: rgba(52, 52, 54, 0.7);
+    background: rgba(52, 52, 54, 0.4);
 
     padding-top: 0;
 
 }
 
-#tint {
-    z-index:2;
-    width: 100%;
-    position: absolute;
-    top: 0;
 
-    bottom:0;
-    background: rgba(52, 52, 54, 0.3);
-
-    padding-top: 0;
-
-}
 .grid-full {
     width: 100%;
     float: left;
@@ -104,7 +93,8 @@ header {
     -o-transition: 0.2s ease;
     transition: 0.2s ease;
     background-color: whitesmoke;
-    color: white;
+    color: transparent;
+    font-weight: 500;
 }
 .ghost-btn:focus {
     outline: none;
@@ -123,6 +113,9 @@ header {
     margin-bottom: 20px;
     cursor: pointer;
     box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    height: 100vh;
+    width:100%;
+
 }
 
 .tint:before {
@@ -138,7 +131,7 @@ header {
 }
 
 .owl-controls {
-    margin-top:-50px;
+    margin-top:-65px;
     z-index: 1000;
 }
 
@@ -152,3 +145,26 @@ header {
 }
 
 
+.muvr-banner {
+                  /* <------ */
+    background: url(../images/muvr-banner.jpg) no-repeat fixed center center;
+    height: 100vh;
+    background-size:   cover;
+    /*width:100%;
+
+    position:relative;
+    height:100vh;*/
+
+}
+.shoppr-banner {
+    /* <------ */
+    background: url(../images/shoppr-banner.jpg) no-repeat fixed center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /*width:100%;
+
+    position:relative;
+    height:100vh;*/
+
+}
